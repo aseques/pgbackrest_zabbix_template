@@ -26,11 +26,11 @@ zabbix_export:
           description: 'Base item to retrieve data from pgBackRest host'
           tags:
             -
-              tag: application
+              tag: Application
               value: pgBackRest
             -
-              tag: data
-              value: raw
+              tag: Data
+              value: Raw
       discovery_rules:
         -
           uuid: 5cd0c6e4bb5142b3a4b464f9352ec27c
